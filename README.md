@@ -31,9 +31,9 @@ Como Usar
 Estrutura do Projeto
 
 raiz/
-├── index.html       # Arquivo principal do HTML
-├── style.css       # Estilização da página (opcional)
-└── conversor.js   # Lógica de conversão em JavaScript
+├── index.html         Arquivo principal do HTML
+├── style.css          Estilização da página (opcional)
+└── conversor.js       Lógica de conversão em JavaScript
 
 Exemplo de Uso
 
