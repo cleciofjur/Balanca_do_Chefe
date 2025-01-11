@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Playwrite DE Grund";
+    background-color: #D0A77B;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3%;
+    background-color: #FFFFF0;
+    box-shadow: 0 0 10px #725C3F;
+    border-radius: 8px;
+}
+
+h1,
+h3 {
+    text-align: center;
+    color: #CE7E5D;
+    text-shadow: 2px 1.5px 1px #D0A77B;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #725C3F;
+}
+
+input,
+select,
+button {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #725C3F;
+    border-radius: 4px;
+    font-family: "Playwrite DE Grund";
+}
+
+button {
+    background-color: #725C3F;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #D0A77B;
+    transition: 1s;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+    color: #725C3F;
+}

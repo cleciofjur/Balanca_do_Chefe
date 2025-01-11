@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Sofia&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Balança do Chef - Conversor de Unidades</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Balança do Chef</h1>
+      <h3>Converta unidades de medida para cozinha</h3>
+      <br />
+
+      <!-- script JavaScript para conversão -->
+      <script src="conversor.js"></script>
+      <center><p id="resultado"></p></center>
+      <br />
+      <!-- Primeiro valor a ser inserido -->
+      <form action="" method="post">
+        <label for="valor">Valor:</label>
+        <input type="number" name="valor" id="valor" required />
+        <label for="antes">De:</label>
+        <select name="antes" id="antes" required>
+          <option value="" selected disabled>Escolha uma unidade</option>
+          <option value="xícaras">Xícaras</option>
+          <option value="colheres de sopa">Colheres de Sopa</option>
+          <option value="colheres de chá">Colheres de Chá</option>
+          <option value="gramas">Gramas</option>
+          <option value="mililitros">Mililitros</option>
+        </select>
+
+        <!-- Segundo valor a ser inserido -->
+        <label for="depois">Para:</label>
+        <select name="depois" id="depois" required>
+          <option value="" selected disabled>Escolha uma unidade</option>
+          <option value="xícaras">Xícaras</option>
+          <option value="colheres de sopa">Colheres de Sopa</option>
+          <option value="colheres de chá">Colheres de Chá</option>
+          <option value="gramas">Gramas</option>
+          <option value="mililitros">Mililitros</option>
+        </select>
+        <button type="submit">Converter</button>
+      </form>
+    </div>
+  </body>
+</html>
